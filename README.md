@@ -12,6 +12,7 @@ The project can be built with npm or yarn, so choose one of the approach bellow 
 To download the project follow the instructions bellow
 
     git clone git@github.com:mahmoudali1842001/A-Photo-Tagging-App.git
+    cd A-Photo-Tagging-App/
     cd photo-tagging-app/
 
 Install dependencies and run project:
