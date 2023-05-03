@@ -26,5 +26,7 @@ You’re given a map with tons of stuff going on and you’re meant to locate se
 the game consists of 8 maps. to win a map, you have to identify three given characters.
 Each map has a unique scoreboard which displays user's name and the time taken to complete the map. So, try to find the characters as fast as possible!
 
+## Demo
+[Watch Demo](https://www.youtube.com/watch?v=ZPOA0eyhaqs&ab_channel=mahmoudabdelshakour)
 
 
