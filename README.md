@@ -1,1 +1,1 @@
-# A-Photo-Tagging-App
+# Photo-Tagging-App

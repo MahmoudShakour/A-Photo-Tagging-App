@@ -1,0 +1,47 @@
+.nav-bar-container{
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar{
+    padding: 10px;
+    background-color: #756f6f;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+
+
+.title{
+    font-weight: bold;
+}
+
+.link:hover{
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    gap: 50px;
+    align-items: flex-end;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-image{
+    max-width: 50px;
+    max-height: 80px;
+}
