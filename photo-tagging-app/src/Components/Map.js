@@ -40,6 +40,12 @@ function Map({maps,characters}) {
     console.log(e.pageX);
     console.log(e.pageY);
 
+    console.log(document.body.scrollHeight);
+    console.log(window.innerWidth);
+
+    console.log(e.pageX/window.innerWidth);
+    console.log(e.pageY/document.body.scrollHeight);
+
     setX(e.pageX);
     setY(e.pageY);
 
@@ -66,7 +72,10 @@ function Map({maps,characters}) {
     // console.log(x);
     // console.log(y);
     // console.log("---------");
-    if(x>=location.minX&&x<=location.maxX&&y>=location.minY&&y<=location.maxY&&chosenId!==-1){
+
+    
+
+    if(x/window.innerWidth>=location.minX&&x/window.innerWidth<=location.maxX&&y/document.body.scrollHeight>=location.minY&&y/document.body.scrollHeight<=location.maxY&&chosenId!==-1){
       // console.log("yes");
       let newIconStyle=iconStyle;
       newIconStyle[chosenId]={opacity:0.5};
@@ -118,7 +127,7 @@ function Map({maps,characters}) {
     :
     <div className="map-page">
       <NavBar icons={icons} iconStyle={iconStyle} />
-      <img className="map-page-image" src={map.url} alt="" ref={ref} />
+      <img  className="map-page-image" src={map.url} alt="" ref={ref} />
       {
         show&&
         <div style={style} className="buttons-container">

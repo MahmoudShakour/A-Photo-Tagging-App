@@ -30,3 +30,7 @@
 .buttons-container button:hover{
     color: rgb(201, 197, 197);
 }
+
+.map-page-image{
+   object-fit: cover; 
+}
